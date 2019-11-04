@@ -1,0 +1,46 @@
+{
+	"name": "Wordfence Security",
+	"version": "7.3.6",
+	"download_url": "https://update1.cn-gd.ufileos.com/wordfence.zip",
+
+	"homepage": "https://revolution.themepunch.com",
+	"requires": "4.5",
+	"tested": "5.2.2",
+	"last_updated": "2019-08-16 16:17:00",
+	"upgrade_notice": "Abc9ok.Com建议备份后再升级...",
+
+	"author": "Abc9ok",
+	"author_homepage": "https://www.abc9ok.com/",
+
+	"sections": {
+		"description": "(Required) Plugin description. Basic HTML can be used in all sections.",
+		"installation": "(Recommended) Installation instructions.",
+		"changelog": "(Recommended) Changelog. <p>This section will be displayed by default when the user clicks 'View version x.y.z details'.</p>",
+		"custom_section": "This is a custom section labeled 'Custom Section'."
+	},
+	
+	"icons" : {
+		"1x" : "https://update1.cn-gd.ufileos.com/ico/slider128.png",
+		"2x" : "https://update1.cn-gd.ufileos.com/ico/slider256.png"
+    },
+
+	"banners": {
+		"low": "https://update1.cn-gd.ufileos.com/banners/wp-rocket.jpg",
+		"high": "https://update1.cn-gd.ufileos.com/banners/wp-rocket500.png"
+	},
+
+	"translations": [
+		{
+			"language": "zh_CN",
+			"version": "6.0.9",
+			"updated": "2019-08-16 20:22:42",
+			"package": "https://update1.cn-gd.ufileos.com/languages/wordfence-zh_CN.zip"
+		}
+	],
+
+	"rating": 90,
+	"num_ratings": 123,
+
+	"downloaded": 1234,
+	"active_installs": 12345
+}

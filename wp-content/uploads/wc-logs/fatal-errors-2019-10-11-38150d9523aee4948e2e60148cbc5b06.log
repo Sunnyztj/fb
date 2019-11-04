@@ -1,0 +1,24 @@
+2019-10-11T02:41:54+00:00 CRITICAL Uncaught wfAPICallFailedException: The Wordfence scanning servers are currently unavailable. This may be for maintenance or a temporary outage. If this still occurs in an hour, please contact support. [404] in /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php:155
+Stack trace:
+#0 /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php(36): wfAPI->getURL('https://noc1.wo...', Array, 900)
+#1 /var/www/fb/wp-content/plugins/wordfence/lib/wordfenceClass.php(4310): wfAPI->call('record_toupp', Array, Array)
+#2 /var/www/fb/wp-content/plugins/wordfence/lib/wordfenceClass.php(1447): wordfence::ajax_recordTOUPP_callback()
+#3 /var/www/fb/wp-includes/class-wp-hook.php(286): wordfence::ajaxReceiver('')
+#4 /var/www/fb/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /var/www/fb/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /var/www/fb/wp-admin/admin-ajax.php(173): do_action('wp_ajax_wordfen...')
+#7 {main}
+  thrown in /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php on line 155
+
+2019-10-11T02:41:55+00:00 CRITICAL Uncaught wfAPICallFailedException: The Wordfence scanning servers are currently unavailable. This may be for maintenance or a temporary outage. If this still occurs in an hour, please contact support. [404] in /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php:155
+Stack trace:
+#0 /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php(36): wfAPI->getURL('https://noc1.wo...', Array, 900)
+#1 /var/www/fb/wp-content/plugins/wordfence/lib/wordfenceClass.php(4322): wfAPI->call('mailing_signup', Array, Array)
+#2 /var/www/fb/wp-content/plugins/wordfence/lib/wordfenceClass.php(1447): wordfence::ajax_mailingSignup_callback()
+#3 /var/www/fb/wp-includes/class-wp-hook.php(286): wordfence::ajaxReceiver('')
+#4 /var/www/fb/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /var/www/fb/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /var/www/fb/wp-admin/admin-ajax.php(173): do_action('wp_ajax_wordfen...')
+#7 {main}
+  thrown in /var/www/fb/wp-content/plugins/wordfence/lib/wfAPI.php on line 155
+
